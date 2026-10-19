@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <title>Participation Activity</title>
+</head>
+<body>
+    <form>
+        <h1>Dance Club Member Names</h1>
+            <label for="first">First Name</label>
+            <input type="text" id="first" placeholder="Input your first name"><br>
+            <label for="last">Second Name</label>
+            <input type="text" id="last" placeholder="Input your last name"><br>
+            <input type="button" py-click="kunin_ang_pangalan" value="Search">
+    </form>
+
+    <div id="result"style="color:rgb(0, 4, 3); font-size: 40px; background-color: deepskyblue;"></div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
